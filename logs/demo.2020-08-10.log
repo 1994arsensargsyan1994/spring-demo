@@ -1,0 +1,282 @@
+2020-08-10 17:18:39.484 INFO  a.g.spingdemo.SpingDemoApplication - Starting SpingDemoApplication on Arsen with PID 16478 (/home/arsen/IdeaProjects/test_spring/sping-demo/target/classes started by arsen in /home/arsen/IdeaProjects/test_spring/sping-demo)
+2020-08-10 17:18:39.487 INFO  a.g.spingdemo.SpingDemoApplication - No active profile set, falling back to default profiles: default
+2020-08-10 17:18:40.366 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-10 17:18:40.420 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47ms. Found 2 JPA repository interfaces.
+2020-08-10 17:18:40.825 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2020-08-10 17:18:40.830 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2020-08-10 17:18:40.831 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-08-10 17:18:40.831 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-08-10 17:18:40.883 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-08-10 17:18:40.883 INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1348 ms
+2020-08-10 17:18:41.021 INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-10 17:18:41.047 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-10 17:18:41.080 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-08-10 17:18:41.228 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-10 17:18:41.313 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-08-10 17:18:41.390 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-10 17:18:41.537 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-08-10 17:18:41.545 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-08-10 17:18:41.870 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-10 17:18:41.875 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-10 17:18:42.059 INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-08-10 17:18:42.253 WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-08-10 17:18:42.316 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2020-08-10 17:18:42.326 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2020-08-10 17:18:42.327 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-08-10 17:18:42.373 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-08-10 17:18:42.432 INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-08-10 17:18:42.596 INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+2020-08-10 17:18:42.675 INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+2020-08-10 17:18:42.682 INFO  a.g.spingdemo.SpingDemoApplication - Started SpingDemoApplication in 3.518 seconds (JVM running for 4.137)
+2020-08-10 17:19:38.375 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-10 17:19:38.375 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-08-10 17:19:38.379 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-08-10 17:19:38.400 INFO  a.g.spingdemo.aspect.LoggingAspect - Method:getAllUsers!
+2020-08-10 17:21:41.767 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-10 17:21:41.770 INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-10 17:21:41.770 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-08-10 17:21:41.775 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-08-10 17:21:49.759 INFO  a.g.spingdemo.SpingDemoApplication - Starting SpingDemoApplication on Arsen with PID 17319 (/home/arsen/IdeaProjects/test_spring/sping-demo/target/classes started by arsen in /home/arsen/IdeaProjects/test_spring/sping-demo)
+2020-08-10 17:21:49.762 INFO  a.g.spingdemo.SpingDemoApplication - No active profile set, falling back to default profiles: default
+2020-08-10 17:21:51.044 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-10 17:21:51.099 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 48ms. Found 2 JPA repository interfaces.
+2020-08-10 17:21:51.601 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2020-08-10 17:21:51.607 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2020-08-10 17:21:51.608 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-08-10 17:21:51.608 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-08-10 17:21:51.669 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-08-10 17:21:51.669 INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1846 ms
+2020-08-10 17:21:51.929 INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-10 17:21:52.009 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-10 17:21:52.042 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-08-10 17:21:52.124 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-10 17:21:52.199 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-08-10 17:21:52.232 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-10 17:21:52.433 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-08-10 17:21:52.440 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-08-10 17:21:52.785 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-10 17:21:52.791 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-10 17:21:53.008 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-08-10 17:21:53.073 INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-08-10 17:21:53.238 WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-08-10 17:21:53.355 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2020-08-10 17:21:53.366 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2020-08-10 17:21:53.367 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-08-10 17:21:53.376 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-08-10 17:21:53.403 INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-08-10 17:21:53.678 INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+2020-08-10 17:21:53.760 INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+2020-08-10 17:21:53.771 INFO  a.g.spingdemo.SpingDemoApplication - Started SpingDemoApplication in 4.421 seconds (JVM running for 5.225)
+2020-08-10 17:21:54.190 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-10 17:21:54.190 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-08-10 17:21:54.199 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2020-08-10 17:21:56.425 INFO  a.g.spingdemo.aspect.LoggingAspect - Method:getAllUsers!
+2020-08-10 17:21:59.741 INFO  a.g.spingdemo.aspect.LoggingAspect - Method:getAllUsers!
+2020-08-10 17:25:47.659 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-10 17:25:47.661 INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-10 17:25:47.662 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-08-10 17:25:47.667 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-08-10 17:25:50.020 INFO  a.g.spingdemo.SpingDemoApplication - Starting SpingDemoApplication on Arsen with PID 18065 (/home/arsen/IdeaProjects/test_spring/sping-demo/target/classes started by arsen in /home/arsen/IdeaProjects/test_spring/sping-demo)
+2020-08-10 17:25:50.024 INFO  a.g.spingdemo.SpingDemoApplication - No active profile set, falling back to default profiles: default
+2020-08-10 17:25:51.051 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-10 17:25:51.105 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47ms. Found 2 JPA repository interfaces.
+2020-08-10 17:25:51.552 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2020-08-10 17:25:51.558 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2020-08-10 17:25:51.559 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-08-10 17:25:51.559 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-08-10 17:25:51.630 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-08-10 17:25:51.631 INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1558 ms
+2020-08-10 17:25:51.943 INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-10 17:25:52.034 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-10 17:25:52.086 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-08-10 17:25:52.174 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-10 17:25:52.239 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-08-10 17:25:52.281 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-10 17:25:52.486 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-08-10 17:25:52.493 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-08-10 17:25:52.840 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-10 17:25:52.845 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-10 17:25:53.073 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 13 endpoint(s) beneath base path '/actuator'
+2020-08-10 17:25:53.130 INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-08-10 17:25:53.297 WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-08-10 17:25:53.424 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2020-08-10 17:25:53.435 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2020-08-10 17:25:53.435 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-08-10 17:25:53.443 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-08-10 17:25:53.475 INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-08-10 17:25:53.696 INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+2020-08-10 17:25:53.774 INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+2020-08-10 17:25:53.784 INFO  a.g.spingdemo.SpingDemoApplication - Started SpingDemoApplication in 4.145 seconds (JVM running for 4.802)
+2020-08-10 17:25:54.315 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-10 17:25:54.315 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-08-10 17:25:54.321 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-08-10 17:26:02.093 INFO  a.g.spingdemo.aspect.LoggingAspect - Method:getAllUsers!
+2020-08-10 17:27:08.368 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-10 17:27:08.386 INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-10 17:27:08.387 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-08-10 17:27:08.413 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-08-10 17:30:53.932 INFO  a.g.spingdemo.SpingDemoApplication - Starting SpingDemoApplication on Arsen with PID 3571 (/home/arsen/IdeaProjects/test_spring/sping-demo/target/classes started by arsen in /home/arsen/IdeaProjects/test_spring/sping-demo)
+2020-08-10 17:30:53.934 INFO  a.g.spingdemo.SpingDemoApplication - No active profile set, falling back to default profiles: default
+2020-08-10 17:30:54.966 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-10 17:30:55.017 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44ms. Found 2 JPA repository interfaces.
+2020-08-10 17:30:55.521 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2020-08-10 17:30:55.527 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2020-08-10 17:30:55.527 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-08-10 17:30:55.527 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-08-10 17:30:55.593 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-08-10 17:30:55.594 INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1619 ms
+2020-08-10 17:30:55.821 INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-10 17:30:55.904 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-10 17:30:55.962 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-08-10 17:30:56.079 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-10 17:30:56.161 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-08-10 17:30:56.261 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-10 17:30:56.444 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-08-10 17:30:56.452 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-08-10 17:30:56.939 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-10 17:30:56.952 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-10 17:30:57.211 INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-08-10 17:30:57.494 WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-08-10 17:30:57.753 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2020-08-10 17:30:57.766 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2020-08-10 17:30:57.767 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-08-10 17:30:57.804 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-08-10 17:30:57.884 INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-08-10 17:30:58.107 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-10 17:30:58.108 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-08-10 17:30:58.116 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2020-08-10 17:30:58.152 INFO  a.g.spingdemo.aspect.LoggingAspect - Method:getAllUsers!
+2020-08-10 17:30:58.295 INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+2020-08-10 17:30:58.310 INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+2020-08-10 17:30:58.332 INFO  a.g.spingdemo.SpingDemoApplication - Started SpingDemoApplication in 4.776 seconds (JVM running for 5.554)
+2020-08-10 17:31:01.609 INFO  a.g.spingdemo.aspect.LoggingAspect - Method:getAllUsers!
+2020-08-10 17:31:51.739 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-10 17:31:51.742 INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-10 17:31:51.742 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-08-10 17:31:51.747 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-08-10 17:31:54.199 INFO  a.g.spingdemo.SpingDemoApplication - Starting SpingDemoApplication on Arsen with PID 4410 (/home/arsen/IdeaProjects/test_spring/sping-demo/target/classes started by arsen in /home/arsen/IdeaProjects/test_spring/sping-demo)
+2020-08-10 17:31:54.202 INFO  a.g.spingdemo.SpingDemoApplication - No active profile set, falling back to default profiles: default
+2020-08-10 17:31:55.242 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-10 17:31:55.284 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 36ms. Found 2 JPA repository interfaces.
+2020-08-10 17:31:55.710 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2020-08-10 17:31:55.715 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2020-08-10 17:31:55.715 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-08-10 17:31:55.716 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-08-10 17:31:55.775 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-08-10 17:31:55.776 INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1517 ms
+2020-08-10 17:31:56.004 INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-10 17:31:56.116 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-10 17:31:56.148 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-08-10 17:31:56.231 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-10 17:31:56.298 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-08-10 17:31:56.339 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-10 17:31:56.524 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-08-10 17:31:56.531 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-08-10 17:31:56.894 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-10 17:31:56.899 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-10 17:31:57.073 INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-08-10 17:31:57.256 WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-08-10 17:31:57.506 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2020-08-10 17:31:57.517 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2020-08-10 17:31:57.567 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9002 (http)
+2020-08-10 17:31:57.568 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9002"]
+2020-08-10 17:31:57.568 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-08-10 17:31:57.568 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-08-10 17:31:57.572 INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-08-10 17:31:57.573 INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 53 ms
+2020-08-10 17:31:57.581 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 13 endpoint(s) beneath base path '/actuator'
+2020-08-10 17:31:57.611 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9002"]
+2020-08-10 17:31:57.614 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9002 (http) with context path ''
+2020-08-10 17:31:57.615 INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+2020-08-10 17:31:57.863 INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+2020-08-10 17:31:57.865 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-08-10 17:31:57.873 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-08-10 17:31:57.899 INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-08-10 17:31:57.986 INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+2020-08-10 17:31:57.986 INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+2020-08-10 17:31:57.995 INFO  a.g.spingdemo.SpingDemoApplication - Started SpingDemoApplication in 4.126 seconds (JVM running for 4.802)
+2020-08-10 17:31:58.464 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-10 17:31:58.465 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-08-10 17:31:58.471 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-08-10 17:32:34.315 INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-10 17:32:34.315 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-08-10 17:32:34.316 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2020-08-10 17:32:52.255 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-10 17:32:52.257 INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-10 17:32:52.257 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-08-10 17:32:52.261 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-08-10 17:32:54.461 INFO  a.g.spingdemo.SpingDemoApplication - Starting SpingDemoApplication on Arsen with PID 4884 (/home/arsen/IdeaProjects/test_spring/sping-demo/target/classes started by arsen in /home/arsen/IdeaProjects/test_spring/sping-demo)
+2020-08-10 17:32:54.464 INFO  a.g.spingdemo.SpingDemoApplication - No active profile set, falling back to default profiles: default
+2020-08-10 17:32:55.465 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-10 17:32:55.509 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 37ms. Found 2 JPA repository interfaces.
+2020-08-10 17:32:55.962 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2020-08-10 17:32:55.967 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2020-08-10 17:32:55.968 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-08-10 17:32:55.968 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-08-10 17:32:56.036 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-08-10 17:32:56.036 INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1525 ms
+2020-08-10 17:32:56.259 INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-10 17:32:56.338 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-10 17:32:56.367 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-08-10 17:32:56.445 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-10 17:32:56.524 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-08-10 17:32:56.549 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-10 17:32:56.745 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-08-10 17:32:56.753 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-08-10 17:32:57.081 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-10 17:32:57.086 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-10 17:32:57.312 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 13 endpoint(s) beneath base path '/monitor'
+2020-08-10 17:32:57.375 INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-08-10 17:32:57.545 WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-08-10 17:32:57.672 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2020-08-10 17:32:57.701 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2020-08-10 17:32:57.702 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-08-10 17:32:57.710 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-08-10 17:32:57.744 INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-08-10 17:32:57.992 INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+2020-08-10 17:32:58.069 INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+2020-08-10 17:32:58.080 INFO  a.g.spingdemo.SpingDemoApplication - Started SpingDemoApplication in 3.935 seconds (JVM running for 4.505)
+2020-08-10 17:32:58.523 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-10 17:32:58.523 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-08-10 17:32:58.531 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2020-08-10 17:33:10.754 INFO  a.g.spingdemo.aspect.LoggingAspect - Method:getAllUsers!
+2020-08-10 17:37:44.746 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-10 17:37:44.748 INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-10 17:37:44.749 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-08-10 17:37:44.797 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-08-10 20:45:57.112 INFO  a.g.spingdemo.SpingDemoApplication - Starting SpingDemoApplication on Arsen with PID 3236 (/home/arsen/IdeaProjects/test_spring/sping-demo/target/classes started by arsen in /home/arsen/IdeaProjects/test_spring/sping-demo)
+2020-08-10 20:45:57.117 INFO  a.g.spingdemo.SpingDemoApplication - No active profile set, falling back to default profiles: default
+2020-08-10 20:45:59.087 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-10 20:45:59.328 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 205ms. Found 2 JPA repository interfaces.
+2020-08-10 20:46:00.756 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2020-08-10 20:46:00.776 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2020-08-10 20:46:00.777 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-08-10 20:46:00.777 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-08-10 20:46:00.973 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-08-10 20:46:00.973 INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3812 ms
+2020-08-10 20:46:01.418 INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-10 20:46:01.565 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-10 20:46:01.915 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-08-10 20:46:02.519 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-10 20:46:02.617 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-10 20:46:02.682 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-08-10 20:46:03.249 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-08-10 20:46:03.290 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-08-10 20:46:04.225 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-10 20:46:04.230 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-10 20:46:04.552 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 13 endpoint(s) beneath base path '/monitor'
+2020-08-10 20:46:04.634 INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-08-10 20:46:04.913 WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-08-10 20:46:05.080 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2020-08-10 20:46:05.096 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2020-08-10 20:46:05.097 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-08-10 20:46:05.157 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-08-10 20:46:05.222 INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-08-10 20:46:05.512 INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+2020-08-10 20:46:05.599 INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+2020-08-10 20:46:05.610 INFO  a.g.spingdemo.SpingDemoApplication - Started SpingDemoApplication in 9.512 seconds (JVM running for 10.74)
+2020-08-10 20:46:05.824 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-10 20:46:05.824 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-08-10 20:46:05.832 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2020-08-10 20:46:06.079 INFO  a.g.spingdemo.aspect.LoggingAspect - Method:getAllUsers!
+2020-08-10 20:46:15.533 INFO  a.g.spingdemo.aspect.LoggingAspect - Method:getAllUsers!

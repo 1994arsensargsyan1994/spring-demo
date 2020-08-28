@@ -1,0 +1,4 @@
+2020-08-11 16:07:04.562 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-11 16:07:04.567 INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-11 16:07:04.568 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-08-11 16:07:04.574 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
